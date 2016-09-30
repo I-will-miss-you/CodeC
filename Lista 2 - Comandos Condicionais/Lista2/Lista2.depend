@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1470987092 source:g:\gitcode\codec\linguagem c descomplicada\lista 2 - comandos condicionais\lista2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+

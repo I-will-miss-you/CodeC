@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1472086342 source:f:\gitcode\codec\linguagem c descomplicada\lista 3 - comandos de repetição\lista3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<time.h>
+	<math.h>
+

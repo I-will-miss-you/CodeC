@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1473975456 source:f:\gitcode\codec\linguagem c descomplicada\lista 4 - vetores e matrizes\lista4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<math.h>
+
+1472535872 source:c:\users\fonse\desktop\linguagem c descomplicada\lista 4 - vetores e matrizes\lista4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+
+1473218614 source:g:\gitcode\codec\linguagem c descomplicada\lista 4 - vetores e matrizes\lista4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<math.h>
+
+1475104588 source:c:\users\fonse\documents\github\meu_estudo\codec\lista 4 - vetores e matrizes\lista4\main.c
+	"main.h"
+
+1475104588 source:c:\users\fonse\documents\github\meu_estudo\codec\lista 4 - vetores e matrizes\lista4\util.c
+	"util.h"
+
+1475104154 c:\users\fonse\documents\github\meu_estudo\codec\lista 4 - vetores e matrizes\lista4\util.h
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<math.h>
+
+1475084421 c:\users\fonse\documents\github\meu_estudo\codec\lista 4 - vetores e matrizes\lista4\main.h
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<math.h>
+	"util.h"
+
