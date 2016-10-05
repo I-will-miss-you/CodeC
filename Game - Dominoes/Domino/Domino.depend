@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1475455808 source:c:\users\fonse\documents\github\codec\game - dominoes\domino\pedra.c
+	"pedra.h"
+
+1475453722 source:c:\users\fonse\documents\github\codec\game - dominoes\domino\main.c
+	"main.h"
+
+1475455765 c:\users\fonse\documents\github\codec\game - dominoes\domino\main.h
+	<stdio.h>
+	<stdlib.h>
+	"pedra.h"
+	"util.h"
+
+1475455765 c:\users\fonse\documents\github\codec\game - dominoes\domino\pedra.h
+	<stdlib.h>
+	"ascii_art_pedra.h"
+	"util.h"
+
+1475455399 c:\users\fonse\documents\github\codec\game - dominoes\domino\ascii_art_pedra.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1475455399 source:c:\users\fonse\documents\github\codec\game - dominoes\domino\ascii_art_pedra.c
+	"ascii_art_pedra.h"
+
+1475455765 c:\users\fonse\documents\github\codec\game - dominoes\domino\util.h
+
+1475455765 source:c:\users\fonse\documents\github\codec\game - dominoes\domino\util.c
+
