@@ -8,44 +8,6 @@
  */
 #include "game.h"
 
-int playGame(sizeNum,totalShots)
-{
-    int key = 0, nShots = 0, shot = 0;
-    srand(time(NULL));
-    key = 1 + rand()%sizeNum;
-    //printf("%d \n",key);
-    do
-    {
-        printf("Your shot [1 - %d] = _\b",sizeNum);
-        scanf("%d",&shot);
-        nShots++;
-        if(key == shot)
-        {
-            system("cls");
-            youWon(key,nShots);
-            cleanBuffer();
-            return getOut();
-        }
-        else if(key > shot)
-        {
-            system("cls");
-            notYet("larger. ",nShots,totalShots);
-        }
-        else
-        {
-            system("cls");
-            notYet("smaller.",nShots,totalShots);
-        }
-
-    }
-    while(nShots != totalShots);
-    system("cls");
-    youLost(key,nShots);
-    cleanBuffer();
-    return getOut();
-}
-
-
 /** \brief Cleans Keyboard Buffer
  *
  * \return void
@@ -93,11 +55,55 @@ int levelSelect(int *level)
 int getOut()
 {
     char getOut[10]= {'\0'};
-    printf("Press any key to continue or write 'exit' to exit.\n $>_\b");
+    printf(" Press any key to continue or write 'exit' to exit.\n #>_\b");
     gets(getOut);
     if(!strcmp(getOut,"exit"))
     {
-        return 0;
+        return 1;
     }
-    return 1;
+    return 0;
+}
+
+/** \brief Game Play - Rules
+ *
+ *
+ * \param sizeNum
+ * \param totalShots
+ * \return int - return getout() yes = 1 or not = 0
+ *
+ */
+int playGame(int sizeNum,int totalShots)
+{
+    int key = 0, nShots = 0, shot = 0;
+    srand(time(NULL));
+    key = 1 + rand()%sizeNum;
+    //printf("%d \n",key);
+    do
+    {
+        printf(" #> Your shot [1 - %d] = _\b",sizeNum);
+        scanf("%d",&shot);
+        nShots++;
+        if(key == shot)
+        {
+            system("cls");
+            youWon(key,nShots);
+            cleanBuffer();
+            return getOut();
+        }
+        else if(key > shot)
+        {
+            system("cls");
+            notYet("biggest.",nShots,totalShots);
+        }
+        else
+        {
+            system("cls");
+            notYet("smaller.",nShots,totalShots);
+        }
+    }
+    while(nShots != totalShots);
+    system("cls");
+    youLost(key,nShots);
+    cleanBuffer();
+    return getOut();
 }

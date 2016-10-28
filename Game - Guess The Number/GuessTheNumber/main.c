@@ -20,19 +20,18 @@ int main()
 
 int main_game()
 {
-    int level = 1, nTentativas = 10 , run = 1 , sizeNum = 0;
+    int level = 0, nTentativas = 10 , run = 1 , sizeNum = 0;
     while(run)
     {
         if(levelSelect(&level)!= 0)
         {
-            --level;
-            sizeNum = 100 * (int)pow(10,level);
-            nTentativas += level*3;
-            run = playGame(sizeNum,nTentativas);
+            sizeNum = 10*round(pow(10,level));
+            nTentativas += level*2;
+            run = !playGame(sizeNum,nTentativas);
         }
         else
         {
-           run = getOut();
+           run = !getOut();
         }
     }
     return 0;

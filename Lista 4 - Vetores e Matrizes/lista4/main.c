@@ -737,10 +737,61 @@ void ex28()
 
 }
 
+/** Exercicio 29
+ * Faça um programa que receba 6 números inteiros e mostre:
+ * Os números pares digitados;
+ * A soma dos números pares digitados;
+ * Os números ímpares digitados;
+ * A quantidade de números ímpares digitados;
+ */
+void ex29()
+{
+    int i = 0, aux = 0;
+    int numPares = 0, par[6] = {0} , soma = 0 ;
+    int numImpares = 0, impares[6] = {0};
+
+    puts("Inserir 6 valores inteiros: ");
+    for( i = 0 ; i < 6 ; i++)
+    {
+        printf("valor %i #_>_\b",i+1);
+        scanf(" %d", &aux);
+
+        if(aux == 0)
+        {
+
+        }
+        else if( aux % 2 == 0 )
+        {
+            par[numPares] = aux;
+            numPares++;
+            soma += aux;
+        }
+        else
+        {
+            impares[numImpares] = aux;
+            numImpares++;
+        }
+    }
+
+    puts(" ");
+    puts(" Numeros pares:");
+    for( i = 0 ; i < numPares ; i++){
+        printf(" %d ",par[i]);
+    }
+    printf("\n total: %d",soma);
+
+    puts("\n");
+    puts(" Numeros impares:");
+    for( i = 0 ; i < numImpares ; i++){
+        printf(" %d ",impares[i]);
+    }
+    printf("\n Numero de impares: %d\n",numImpares);
+}
 
 int main()
 {
-    ex28();
+    //ex29();
+    //ex28();
     //ex28b();
     //ex27();
     //ex26();

@@ -19,8 +19,9 @@
 
 #include "main.h"
 
-int playGame(int sizeNum,int totalShots);
+
 void cleanBuffer();
 int levelSelect(int *);
-int getOut();
+int getOut();/**< yes = 1 no = 0 */
+int playGame(int sizeNum,int totalShots);
 #endif // GAME_H_INCLUDED

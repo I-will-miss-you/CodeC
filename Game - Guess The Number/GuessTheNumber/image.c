@@ -32,14 +32,14 @@ void notYet(char *str,int nshot,int totalShots){
     puts("\t .-.'    `.   ((@))  .'   '.-.");
     puts("\t( ^ \\      `--.   .-'     / ^ )");
     puts("\t \\  /         .   .       \\  /");
-    printf("\t /          .'     '.  .-    \\                     Total shots = %d\n",totalShots);
+    printf("\t /          .'     '.  .-    \\                      Max shots = %d\n",totalShots);
     puts("\t( _.\\    \\ (_`-._.-'_)    /._\\               _  _  ___ _____  __   _____ _____ ");
     puts("\t `-' \\   ' .--.          / `-'              | \\| |/ _ \\_   _| \\ \\ / / __|_   _|");
     puts("\t     |  / /|_| `-._.'\\   |                  | .` | (_) || |    \\ V /| _|  | | ");
     puts("\t     |   |       |_| |   /-.._              |_|\\_|\\___/ |_|     |_| |___| |_|");
     puts("\t _..-\\   `.--.______.'  |                     _______________________________");
     printf("\t      \\       .....     |                    | You used %2d shots             |\n",nshot);
-    printf("\t       `.  .'      `.  /                     |  The number is %s       |\n",str);
+    printf("\t       `.  .'      `.  /                     | The number is %s        |\n",str);
     puts("\t         \\           .'                      |_______________________________|");
     puts("\t         `-..___..-`");
     puts("");
@@ -76,7 +76,7 @@ void youLost(int key , int nshot)
     puts("\t        | /_.=========._/_.-._\\  .:'          \\_ |                            |.");
     puts("\t        |= |-.'.- .'.- |  /|\\ |.:'               |                            |.");
     puts("\t        \\  |=|:|= |:| =| |~|~||'|                |                            |.");
-    printf("\t         |~|-|:| -|:|  |-|~|~||=|      ^V^       |   Secret number:%4d       |.\n",key);
+    printf("\t         |~|-|:| -|:|  |-|~|~||=|      ^V^       |   Secret number:%6d     |.\n",key);
     puts("\t         |=|=|:|- |:|- | |~|~|| |                |                            |.");
     printf("\t         | |-_~__=_~__=|_^^^^^|/___              |   Shots number: %2d         |.\n",nshot);
     puts("\t         |-(=-=-=-=-=-(|=====/=_-=/\\             |                            |.");
