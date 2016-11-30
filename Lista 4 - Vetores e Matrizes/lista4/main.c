@@ -788,8 +788,149 @@ void ex29()
     printf("\n Numero de impares: %d\n",numImpares);
 }
 
+/** Exercicio 30
+* Faça um programa que leia dois vetores de 10 elementos. Crie um vetor que seja a uni˜ao
+* entre os 2 vetores anteriores, ou seja, que contém os números dos dois vetores. N˜ao
+* deve conter números repetidos.
+*/
+void exec_ex30(int a[], int b[], int c[], int NAB, int *NC)
+{
+    int i = 0, j = 0;
+
+    for(i = 0; i < NAB ; i++)
+    {
+        c[i] = a[i];
+        (*NC)++;
+    }
+
+    for(i = 0 ; i < NAB ; i++)
+    {
+        for(j = 0 ; j < *NC ; j++)
+        {
+            if(b[i] == c[j]) break;
+        }
+
+        if(j == *NC)
+        {
+            c[j] = b[i];
+            (*NC)++;
+        }
+    }
+}
+
+void ex30()
+{
+    int vetorA[10] = {1,2,3,4,5,6,7,8,9,10};
+    int vetorB[10] = {1,20,30,4,55,6,77,8,94,10};
+    int vetorC[20] = {0};
+    int i = 0, Nab = 10, Nc = 0;
+
+    exec_ex30(vetorA,vetorB,vetorC,Nab,&Nc);
+
+    printf("Vetor A\t*\tVetor B\n");
+    for(i = 0 ; i < Nab ; i++)
+    {
+        printf("%2d\t*\t%2d\n",vetorA[i],vetorB[i]);
+    }
+    puts("*****************************\n*****************************");
+    printf(" Vetor C\n");
+    for(i = 0 ; i < Nc ; i++)
+        printf(" %2d\n",vetorC[i]);
+
+}
+
+/** Exercicio 31
+* Faça um programa que leia dois vetores de 10 elementos. Crie um vetor que seja a
+* intersecção entre os 2 vetores anteriores, ou seja, que contém apenas os números que
+* estão em ambos os vetores. N˜ao deve conter números repetidos.
+*/
+void exec_ex31(int a[], int b[], int c[], int NAB, int *NC)
+{
+    int i = 0, j = 0, k = 0;
+
+    for(i = 0 ; i < NAB ; i++)
+    {
+        for(j = 0 ; j < NAB ; j++)
+        {
+            if(a[i] == b[j])
+            {
+                for( k = 0 ; k < *NC ; k++)
+                {
+                    if(a[i] == c[k]) break;
+                }
+                if(k == *NC)
+                {
+                    c[*NC] = b[j];
+                    (*NC)++;
+                }
+
+            }
+        }
+    }
+
+}
+void ex31()
+{
+    int vetorA[10] = {1,2,3,3,3,6,7,3,9,10};
+    int vetorB[10] = {1,20,6,3,55,7,7,8,9,3};
+    int vetorC[10] = {0};
+    int i = 0, Nab = 10, Nc = 0;
+
+    exec_ex31(vetorA,vetorB,vetorC,Nab,&Nc);
+    for(i = 0 ; i < Nc ; i++)
+        printf(" %d \n",vetorC[i]);
+}
+
+/** Exercicio 32
+* Leia dois vetores de inteiros x e y, cada um com 5 elementos (assuma que o usuário n˜ao
+* informa elementos repetidos). Calcule e mostre os vetores resultantes em cada caso
+* abaixo:
+* a) Soma entre x e y: soma de cada elemento de x com o elemento da mesma posicão em y.
+* b) Produto entre x e y: multiplicação de cada elemento de x com o elemento da mesma posição em y.
+* c) Diferença entre x e y: todos os elementos de x que não existam em y.
+* d) Interseção entre x e y: apenas os elementos que aparecem nos dois vetores.
+* e) Uni˜ao entre x e y: todos os elementos de x, e todos os elementos de y que n˜ao estão em x.
+*/
+void ex32a(int a[], int b[], int n)
+{
+    int i = 0;
+    printf("A) Soma:\n");
+    for( i = 0 ; i < n ; i++)
+        printf("%2d + %2d = %2d\n",a[i],b[i],a[i]+b[i]);
+}
+void ex32b(int a[], int b[], int n)
+{
+    int i = 0;
+    printf("B) Produto:\n");
+    for( i = 0 ; i < n ; i++)
+        printf("%2d X %2d = %2d \n",a[i],b[i],a[i]*b[i]);
+}
+
+
+
+void ex32()
+{
+    int vetorA[] = {1,2,3,4,5,6,7,8,9,10};
+    int vetorB[] = {1,2,1,2,3,5,4,8,3,0};
+    int numero_elementos = 10;
+
+    ex32a(vetorA,vetorB,numero_elementos);
+    puts("");
+    ex32b(vetorA,vetorB,numero_elementos);
+    puts("");
+
+
+}
+
+
+
+
 int main()
 {
+
+    ex32();
+    //ex31();
+    //ex30();
     //ex29();
     //ex28();
     //ex28b();
