@@ -15,7 +15,7 @@
  *  site: http://www.ascii-code.com/ascii-art/mythology/fantasy.php
  *  and
  *  site: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
- *c
+ *
  * \param string char*
  * \param nshot int
  * \return void
