@@ -7,12 +7,12 @@
  */
 
 
-
 #include "main.h"
 
 
 int main()
 {
+    system("COLOR 0B");
     main_game();
     //main_teste();
     return 0;
@@ -20,7 +20,7 @@ int main()
 
 int main_game()
 {
-    int level = 0, nTentativas = 10 , run = 1 , sizeNum = 0;
+    int level = 0, nTentativas = 10, run = 1, sizeNum = 0;
     while(run)
     {
         if(levelSelect(&level)!= 0)
@@ -31,7 +31,7 @@ int main_game()
         }
         else
         {
-           run = !getOut();
+            run = !getOut();
         }
     }
     return 0;
