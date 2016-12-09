@@ -4,11 +4,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
+#include <conio.h>
+#include <time.h>
 #include <math.h>
-
 #include "util.h"
 
-//OS cabeÁalhos est„o no proprio ficheiro '.c'
+//OS cabe√ßalhos est√£o no proprio ficheiro '.c'
 
 
 

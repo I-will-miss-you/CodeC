@@ -6,7 +6,10 @@
 #include <limits.h>
 #include <math.h>
 
-
+/**\brief Limpeza do buffer do teclado
+*
+*/
+void limpa();
 
 /** \brief is prime? (é primo?)
  *

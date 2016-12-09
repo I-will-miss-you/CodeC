@@ -1,6 +1,16 @@
 #include "util.h"
 
 
+
+/**\brief Limpeza do buffer do teclado
+*
+*/
+void limpa() {
+        scanf("%*[^\n]");
+        scanf("%*c");
+}
+
+
 /** \brief is prime? (é primo?)
  *
  * \param num int - The input value must be positive not null.

@@ -35,22 +35,24 @@
 	<math.h>
 	"util.h"
 
-1476572514 source:c:\users\fonse\documents\github\codec\lista 4 - vetores e matrizes\lista4\main.c
+1481242513 source:c:\users\fonse\documents\github\codec\lista 4 - vetores e matrizes\lista4\main.c
 	"main.h"
 
-1475084421 c:\users\fonse\documents\github\codec\lista 4 - vetores e matrizes\lista4\main.h
+1480929463 c:\users\fonse\documents\github\codec\lista 4 - vetores e matrizes\lista4\main.h
 	<stdio.h>
 	<stdlib.h>
 	<limits.h>
+	<conio.h>
+	<time.h>
 	<math.h>
 	"util.h"
 
-1480481930 c:\users\fonse\documents\github\codec\lista 4 - vetores e matrizes\lista4\util.h
+1481235463 c:\users\fonse\documents\github\codec\lista 4 - vetores e matrizes\lista4\util.h
 	<stdio.h>
 	<stdlib.h>
 	<limits.h>
 	<math.h>
 
-1480481930 source:c:\users\fonse\documents\github\codec\lista 4 - vetores e matrizes\lista4\util.c
+1481235463 source:c:\users\fonse\documents\github\codec\lista 4 - vetores e matrizes\lista4\util.c
 	"util.h"
 
