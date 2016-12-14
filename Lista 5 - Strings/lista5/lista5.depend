@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1481343211 source:c:\users\fonse\documents\code blocks projects\lista 5 - strings\lista5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1481752296 source:c:\users\fonse\documents\github\codec\lista 5 - strings\lista5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+
