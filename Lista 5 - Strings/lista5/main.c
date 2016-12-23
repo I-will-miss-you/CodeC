@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 #include <conio.h>
 #include <string.h>
 #include <ctype.h>
-/** Exercicio 01
- * FaÁa um programa que ent„o leia uma string e a imprima.
+
+/* Exercicio 01
+ * Fa√ßa um programa que ent√£o leia uma string e a imprima.
  */
 void ex01() {
     char str[250] = {'\0'};
@@ -13,8 +15,8 @@ void ex01() {
     printf("%s\n",str);
 }
 
-/** Exercicio 02
- * Crie um programa que calcula o comprimento de uma string (n„o use a funÁ„o strlen).
+/* Exercicio 02
+ * Crie um programa que calcula o comprimento de uma string (n√£o use a fun√ß√£o strlen).
  */
 void ex02() {
     char str[250] = {'\0'};
@@ -34,8 +36,8 @@ void ex02b() {
     printf("Tamanho da string e: %d \n",n);
 }
 
-/** Exercicio 3
- * Crie um programa que compara duas strings (n„o use a funÁ„o strcmp).
+/* Exercicio 3
+ * Crie um programa que compara duas strings (n√£o use a fun√ß√£o strcmp).
  */
 void ex03() {
     char strA[250] = {'\0'};
@@ -56,8 +58,8 @@ void ex03() {
     }
 }
 
-/** Exercicio 4
- * FaÁa um programa que leia um nome e imprima as 4 primeiras letras do nome.
+/* Exercicio 4
+ * Fa√ßa um programa que leia um nome e imprima as 4 primeiras letras do nome.
  */
 void ex04() {
     char str[50] = {'\0'};
@@ -74,7 +76,7 @@ void ex04() {
     puts("");
 }
 
-/** Exercicio 5
+/* Exercicio 5
  * Digite um nome, calcule e retorne quantas letras tem esse nome.
  */
 int ex05(char *str) {
@@ -85,9 +87,9 @@ int ex05(char *str) {
     return contador;
 }
 
-/** Exercicio 06
+/* Exercicio 06
 * Ler nome, sexo e idade. Se sexo for feminino e idade menor que 25, imprime o nome da
-* pessoa e a palavra ìACEITAî, caso contr·rio imprimir ìN√O ACEITAî.
+* pessoa e a palavra ‚ÄúACEITA‚Äù, caso contr√°rio imprimir ‚ÄúN√ÉO ACEITA‚Äù.
 */
 void ex06() {
     char nome[30], sexo;
@@ -99,8 +101,8 @@ void ex06() {
     else printf("%s Nao Aceita \n",nome);
 }
 
-/** \brief Exercicio 07
-* FaÁa um programa que conte o n˙mero de 1ís que aparecem em um string. Exemplo: 0011001 -> 3
+/* Exercicio 07
+* Fa√ßa um programa que conte o n√∫mero de 1‚Äôs que aparecem em um string. Exemplo: 0011001 -> 3
 */
 void ex07() {
     char *str = "111111110111010100111111000";
@@ -113,8 +115,8 @@ void ex07() {
     printf("-> %d\n",cont);
 }
 
-/** Exercicio 08
-* Escreva um programa que substitui as ocorrÍncias de um caractere 0 em uma string por
+/* Exercicio 08
+* Escreva um programa que substitui as ocorr√™ncias de um caractere 0 em uma string por
 * outro caractere 1.
 */
 void ex08() {
@@ -127,9 +129,9 @@ void ex08() {
     printf("%s",str);
 }
 
-/** Exercicio 09
-* Entre com um nome e imprima o nome somente se a primeira letra do nome for ìaî
-* (mai˙scula ou min˙scula).
+/* Exercicio 09
+* Entre com um nome e imprima o nome somente se a primeira letra do nome for ‚Äúa‚Äù
+* (mai√∫scula ou min√∫scula).
 */
 void ex09() {
     char str[30] = {'\0'};
@@ -141,8 +143,8 @@ void ex09() {
     } while(1);
 }
 
-/** Exercicio 10
-*   FaÁa um programa que receba uma palavra e a imprima de tr·s-para-frente.
+/* Exercicio 10
+*   Fa√ßa um programa que receba uma palavra e a imprima de tr√°s-para-frente.
 */
 void ex10() {
     char str[30] = {'\0'};
@@ -160,8 +162,8 @@ void ex10() {
     } while(1);
 }
 
-/** Exercicio 11
-*   FaÁa um programa que receba do usu·rio uma string. O programa imprime a string sem
+/* Exercicio 11
+*   Fa√ßa um programa que receba do usu√°rio uma string. O programa imprime a string sem
 *   suas vogais.
 */
 int isVogal(char c) {
@@ -187,8 +189,8 @@ void ex11() {
     }
 }
 
-/** Exercicio 12
-*   FaÁa um programa que receba uma palavra e calcule quantas vogais (a, e, i, o, u) possui
+/* Exercicio 12
+*   Fa√ßa um programa que receba uma palavra e calcule quantas vogais (a, e, i, o, u) possui
 *   essa palavra. Entre com um caractere (vogal ou consoante) e substitua todas as vogais
 *   da palavra dada por esse caractere.
 */
@@ -210,8 +212,8 @@ void ex12() {
             \n String final = %s\n",funcEX12(str,key),str);
 }
 
-/** Exercicio 13
-*   Ler uma frase e contar quantos caracteres s„o brancos. Lembre-se que uma frase È um
+/* Exercicio 13
+*   Ler uma frase e contar quantos caracteres s√£o brancos. Lembre-se que uma frase √© um
 *   conjunto de caracteres (vetor).
 */
 void ex13() {
@@ -226,8 +228,8 @@ void ex13() {
     printf("Espacos em branco = %d",cont);
 }
 
-/** Exercicio 14
-*   FaÁa um programa que leia uma palavra (m·ximo de 50 letras) e some 1 no valor ASCII
+/* Exercicio 14
+*   Fa√ßa um programa que leia uma palavra (m√°ximo de 50 letras) e some 1 no valor ASCII
 *   de cada caractere da palavra. Imprima a string resultante.
 */
 void ex14() {
@@ -239,9 +241,160 @@ void ex14() {
     for(i = 0 ; i < strlen(str) ; i++) str[i] = str[i] + 1;
     printf("String final : %s",str);
 }
+/* Exercicio 15
+*   Leia uma cadeia de caracteres e converta todos os caracteres para mai√∫scula.
+*   Dica: subtraia 32 dos caracteres cujo c√≥digo ASCII est√° entre 97 e 122.
+*/
+void ex15() {
+    char str[50] = {'\0'};
+    int i = 0;
+    printf(" Escreva uma palavra:_\b");
+    scanf("%s",str);
+    for(i = 0 ; i < strlen(str) ; i++) {
+        if(str[i] >= 97 && str[i] <= 122) {
+            str[i] = str[i] - 32;
+        }
+    }
+    printf("String final : %s",str);
+}
+
+/* Execicio 16
+*   Escreva um programa para converter uma cadeia de caracteres de letras mai√∫sculas em
+*   letras min√∫sculas
+*/
+void ex16() {
+    char str[50] = {'\0'};
+    int i = 0;
+    printf(" Escreva uma palavra:_\b");
+    scanf("%s",str);
+    for(i = 0 ; i < strlen(str) ; i++) {
+        if(str[i] >= 65 && str[i] <= 90) {
+            str[i] = str[i] + 32;
+        }
+    }
+    printf("String final : %s",str);
+}
+
+/* Execicio 17
+*   Leia um vetor contendo letras de uma frase inclusive os espa√ßos em branco. Retirar os
+*   espa√ßos em branco do vetor e depois escrever o vetor resultante.
+*/
+void ex17() {
+    char str[50] = {'\0'};
+    int i = 0, j = 0;
+    printf(" Escreva uma palavra:_\b");
+    gets(str);
+    for(i = 0 ; i < strlen(str)-1 ; i++) {
+        if(isspace(str[i])) {
+            for(j = i ; j < strlen(str) ; j++) {
+                str[j] = str[j+1];
+            }
+            i--;
+        }
+    }
+    printf("String final :%s",str);
+}
+
+/* Exercicio 18
+*   Fa√ßa um programa em que troque todas as ocorr√™ncias de uma letra L1 pela letra L2 em
+*   uma string. A string e as letras L1 e L2 devem ser fornecidas pelo usu√°rio.
+*/
+void ex18() {
+    char str[50] = {'\0'};
+    char L1 = 0, L2 = 0;
+    int i = 0;
+    printf(" Escreva uma palavra:_\b");
+    gets(str);
+    printf(" Key a ser alterada:");
+    scanf(" %c",&L1);
+    printf(" Alterar pela a Key:");
+    scanf(" %c",&L2);
+    for(i = 0 ; i < strlen(str)-1 ; i++) {
+        if(str[i] == L1) {
+            str[i] = L2;
+        }
+    }
+    printf("String final :%s",str);
+}
+
+/* Exercicio 19
+*   Escreva um programa que leia a idade e o primeiro nome de v√°rias pessoas. Seu programa
+*   deve terminar quando uma idade negativa for digitada. Ao terminar, seu programa
+*   deve escrever o nome e a idade das pessoas mais jovens e mais velhas.
+*/
+void ex19() {
+    char str[50][50], str_aux[50];
+    int idade[50] = {0}, idade_aux = 0, menor_idade = INT_MAX, maior_idade = INT_MIN;
+    int elem = 0;
+    int i = 0, j = 0, n = 50;
+
+    for(i = 0 ; i < n ; i++) {
+        for(j = 0 ; j < n ; j++) {
+            str[i][j] = 0;
+        }
+    }
+
+    while(1) {
+        printf("\n Pessoa N %d\n",elem+1);
+        printf(" Nome: _\b");
+        gets(str_aux);
+        printf(" Idade: _\b");
+        scanf(" %d",&idade_aux);
+        scanf("%*c");//limpar o buffer teclado
+        if(idade_aux < 0) {
+            break;
+        } else {
+            strcpy(str[elem],str_aux);
+            idade[elem] = idade_aux;
+            elem++;
+        }
+    }
+
+    for(i = 0 ; i < elem ; i++) {
+        if(menor_idade > idade[i]) menor_idade = idade[i];
+        if(maior_idade < idade[i]) maior_idade = idade[i];
+    }
+
+    printf("\n Os mais novos:\n");
+    printf(" Idade:%d\n",menor_idade);
+    for(i = 0 ; i < elem ; i++) {
+        if(idade[i] == menor_idade) {
+            printf(" Nome:%s\n",str[i]);
+        }
+    }
+
+    printf("\n Os mais velhos:\n");
+    printf(" Idade:%d\n",maior_idade);
+    for(i = 0 ; i < elem ; i++) {
+        if(idade[i] == maior_idade) {
+            printf(" Nome:%s\n",str[i]);
+        }
+    }
+}
+
+/* Exercicio 20
+*   Fa√ßa um programa que preencha um vetor com os modelos de cinco carros (exemplos de
+*   modelos: Fusca, Gol, Vectra, etc.). Preencha outro vetor com o consumo desses carros,
+*   isto √©, quantos quil√¥metros cada um deles faz com um litro de combust√≠vel. Calcule e
+*   mostre:
+*   (a) O modelo de carro mais econ√¥mico;
+*   (b) Quantos litros de combust√≠vel cada um dos carros cadastrados consomem para
+*   percorrer uma dist√¢ncia de 1.000 quil√¥metros.
+*/
+void ex20(){
+
+
+}
+
 
 int main() {
-    ex14();
+    ex20();
+    //ex19();
+    //ex18();
+    //ex17();
+    //ex16();
+    //ex15();
+    //ex14();
     //ex13();
     //ex12();
     //ex11();

@@ -5,9 +5,10 @@
 	<conio.h>
 	<string.h>
 
-1481752296 source:c:\users\fonse\documents\github\codec\lista 5 - strings\lista5\main.c
+1482334242 source:c:\users\fonse\documents\github\codec\lista 5 - strings\lista5\main.c
 	<stdio.h>
 	<stdlib.h>
+	<limits.h>
 	<conio.h>
 	<string.h>
 	<ctype.h>
