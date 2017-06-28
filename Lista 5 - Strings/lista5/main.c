@@ -6,7 +6,7 @@
 #include <ctype.h>
 
 /* Exercicio 01
- * Fa√ßa um programa que ent√£o leia uma string e a imprima.
+ * FaÁa um programa que ent„o leia uma string e a imprima.
  */
 void ex01() {
     char str[250] = {'\0'};
@@ -16,7 +16,7 @@ void ex01() {
 }
 
 /* Exercicio 02
- * Crie um programa que calcula o comprimento de uma string (n√£o use a fun√ß√£o strlen).
+ * Crie um programa que calcula o comprimento de uma string (n„o use a funÁ„o strlen).
  */
 void ex02() {
     char str[250] = {'\0'};
@@ -37,7 +37,7 @@ void ex02b() {
 }
 
 /* Exercicio 3
- * Crie um programa que compara duas strings (n√£o use a fun√ß√£o strcmp).
+ * Crie um programa que compara duas strings (n„o use a funÁ„o strcmp).
  */
 void ex03() {
     char strA[250] = {'\0'};
@@ -59,7 +59,7 @@ void ex03() {
 }
 
 /* Exercicio 4
- * Fa√ßa um programa que leia um nome e imprima as 4 primeiras letras do nome.
+ * FaÁa um programa que leia um nome e imprima as 4 primeiras letras do nome.
  */
 void ex04() {
     char str[50] = {'\0'};
@@ -89,7 +89,7 @@ int ex05(char *str) {
 
 /* Exercicio 06
 * Ler nome, sexo e idade. Se sexo for feminino e idade menor que 25, imprime o nome da
-* pessoa e a palavra ‚ÄúACEITA‚Äù, caso contr√°rio imprimir ‚ÄúN√ÉO ACEITA‚Äù.
+* pessoa e a palavra ìACEITAî, caso contr·rio imprimir ìN√O ACEITAî.
 */
 void ex06() {
     char nome[30], sexo;
@@ -102,7 +102,7 @@ void ex06() {
 }
 
 /* Exercicio 07
-* Fa√ßa um programa que conte o n√∫mero de 1‚Äôs que aparecem em um string. Exemplo: 0011001 -> 3
+* FaÁa um programa que conte o n˙mero de 1ís que aparecem em um string. Exemplo: 0011001 -> 3
 */
 void ex07() {
     char *str = "111111110111010100111111000";
@@ -116,7 +116,7 @@ void ex07() {
 }
 
 /* Exercicio 08
-* Escreva um programa que substitui as ocorr√™ncias de um caractere 0 em uma string por
+* Escreva um programa que substitui as ocorrÍncias de um caractere 0 em uma string por
 * outro caractere 1.
 */
 void ex08() {
@@ -130,8 +130,8 @@ void ex08() {
 }
 
 /* Exercicio 09
-* Entre com um nome e imprima o nome somente se a primeira letra do nome for ‚Äúa‚Äù
-* (mai√∫scula ou min√∫scula).
+* Entre com um nome e imprima o nome somente se a primeira letra do nome for ìaî
+* (mai˙scula ou min˙scula).
 */
 void ex09() {
     char str[30] = {'\0'};
@@ -144,7 +144,7 @@ void ex09() {
 }
 
 /* Exercicio 10
-*   Fa√ßa um programa que receba uma palavra e a imprima de tr√°s-para-frente.
+*   FaÁa um programa que receba uma palavra e a imprima de tr·s-para-frente.
 */
 void ex10() {
     char str[30] = {'\0'};
@@ -163,7 +163,7 @@ void ex10() {
 }
 
 /* Exercicio 11
-*   Fa√ßa um programa que receba do usu√°rio uma string. O programa imprime a string sem
+*   FaÁa um programa que receba do usu·rio uma string. O programa imprime a string sem
 *   suas vogais.
 */
 int isVogal(char c) {
@@ -190,7 +190,7 @@ void ex11() {
 }
 
 /* Exercicio 12
-*   Fa√ßa um programa que receba uma palavra e calcule quantas vogais (a, e, i, o, u) possui
+*   FaÁa um programa que receba uma palavra e calcule quantas vogais (a, e, i, o, u) possui
 *   essa palavra. Entre com um caractere (vogal ou consoante) e substitua todas as vogais
 *   da palavra dada por esse caractere.
 */
@@ -213,7 +213,7 @@ void ex12() {
 }
 
 /* Exercicio 13
-*   Ler uma frase e contar quantos caracteres s√£o brancos. Lembre-se que uma frase √© um
+*   Ler uma frase e contar quantos caracteres s„o brancos. Lembre-se que uma frase È um
 *   conjunto de caracteres (vetor).
 */
 void ex13() {
@@ -229,7 +229,7 @@ void ex13() {
 }
 
 /* Exercicio 14
-*   Fa√ßa um programa que leia uma palavra (m√°ximo de 50 letras) e some 1 no valor ASCII
+*   FaÁa um programa que leia uma palavra (m·ximo de 50 letras) e some 1 no valor ASCII
 *   de cada caractere da palavra. Imprima a string resultante.
 */
 void ex14() {
@@ -242,8 +242,8 @@ void ex14() {
     printf("String final : %s",str);
 }
 /* Exercicio 15
-*   Leia uma cadeia de caracteres e converta todos os caracteres para mai√∫scula.
-*   Dica: subtraia 32 dos caracteres cujo c√≥digo ASCII est√° entre 97 e 122.
+*   Leia uma cadeia de caracteres e converta todos os caracteres para mai˙scula.
+*   Dica: subtraia 32 dos caracteres cujo cÛdigo ASCII est· entre 97 e 122.
 */
 void ex15() {
     char str[50] = {'\0'};
@@ -259,8 +259,8 @@ void ex15() {
 }
 
 /* Execicio 16
-*   Escreva um programa para converter uma cadeia de caracteres de letras mai√∫sculas em
-*   letras min√∫sculas
+*   Escreva um programa para converter uma cadeia de caracteres de letras mai˙sculas em
+*   letras min˙sculas
 */
 void ex16() {
     char str[50] = {'\0'};
@@ -276,8 +276,8 @@ void ex16() {
 }
 
 /* Execicio 17
-*   Leia um vetor contendo letras de uma frase inclusive os espa√ßos em branco. Retirar os
-*   espa√ßos em branco do vetor e depois escrever o vetor resultante.
+*   Leia um vetor contendo letras de uma frase inclusive os espaÁos em branco. Retirar os
+*   espaÁos em branco do vetor e depois escrever o vetor resultante.
 */
 void ex17() {
     char str[50] = {'\0'};
@@ -296,8 +296,8 @@ void ex17() {
 }
 
 /* Exercicio 18
-*   Fa√ßa um programa em que troque todas as ocorr√™ncias de uma letra L1 pela letra L2 em
-*   uma string. A string e as letras L1 e L2 devem ser fornecidas pelo usu√°rio.
+*   FaÁa um programa em que troque todas as ocorrÍncias de uma letra L1 pela letra L2 em
+*   uma string. A string e as letras L1 e L2 devem ser fornecidas pelo usu·rio.
 */
 void ex18() {
     char str[50] = {'\0'};
@@ -318,7 +318,7 @@ void ex18() {
 }
 
 /* Exercicio 19
-*   Escreva um programa que leia a idade e o primeiro nome de v√°rias pessoas. Seu programa
+*   Escreva um programa que leia a idade e o primeiro nome de v·rias pessoas. Seu programa
 *   deve terminar quando uma idade negativa for digitada. Ao terminar, seu programa
 *   deve escrever o nome e a idade das pessoas mais jovens e mais velhas.
 */
@@ -373,13 +373,13 @@ void ex19() {
 }
 
 /* Exercicio 20
-*   Fa√ßa um programa que preencha um vetor com os modelos de cinco carros (exemplos de
+*   FaÁa um programa que preencha um vetor com os modelos de cinco carros (exemplos de
 *   modelos: Fusca, Gol, Vectra, etc.). Preencha outro vetor com o consumo desses carros,
-*   isto √©, quantos quil√¥metros cada um deles faz com um litro de combust√≠vel. Calcule e
+*   isto È, quantos quilÙmetros cada um deles faz com um litro de combustÌvel. Calcule e
 *   mostre:
-*   (a) O modelo de carro mais econ√¥mico;
-*   (b) Quantos litros de combust√≠vel cada um dos carros cadastrados consomem para
-*   percorrer uma dist√¢ncia de 1.000 quil√¥metros.
+*   (a) O modelo de carro mais econÙmico;
+*   (b) Quantos litros de combustÌvel cada um dos carros cadastrados consomem para
+*   percorrer uma dist‚ncia de 1.000 quilÙmetros.
 */
 void ex20() {
 
@@ -430,7 +430,7 @@ void ex20() {
 }
 
 /* Exercicio 21
-*   Fa√ßa um programa que receba duas frases distintas e imprima de maneira invertida,
+*   FaÁa um programa que receba duas frases distintas e imprima de maneira invertida,
 *   trocando as letras A por *.
 */
 void ex21() {
@@ -493,9 +493,9 @@ void ex21A() {
 
 /* Exercicio 22
 *   Ler o nome e o valor de uma determinada mercadoria de uma loja. Sabendo que o
-*   desconto para pagamento  vista √© de 10% sobre o valor total, calcular o valor a ser
-*   pago √† vista. Escrever o nome da mercadoria, o valor total, o valor do desconto e o valor
-*   a ser pago √† vista.
+*   desconto para pagamento  vista È de 10% sobre o valor total, calcular o valor a ser
+*   pago ‡ vista. Escrever o nome da mercadoria, o valor total, o valor do desconto e o valor
+*   a ser pago ‡ vista.
 */
 void ex22() {
     char produto[250] = {'\0'};
@@ -524,7 +524,7 @@ void ex22() {
 
 
 /* Exercicio 23
-*   Escreva um programa que recebe uma string S e inteiros n√£o-negativos I e J e imprima
+*   Escreva um programa que recebe uma string S e inteiros n„o-negativos I e J e imprima
 *   o segmento S[I..J].
 */
 void ex23() {
@@ -545,9 +545,9 @@ void ex23() {
 
 
 /* Exercicio 24
-*   Escreva um programa que recebe do usu√°rio uma string S, um caractere C, e uma
-*   posi√ß√£o I e devolve o √≠ndice da primeira posi√ß√£o da string onde foi encontrado o caractere C.
-*   A procura deve come√ßar a partir da posi√ß√£o I.
+*   Escreva um programa que recebe do usu·rio uma string S, um caractere C, e uma
+*   posiÁ„o I e devolve o Ìndice da primeira posiÁ„o da string onde foi encontrado o caractere C.
+*   A procura deve comeÁar a partir da posiÁ„o I.
 */
 void ex24() {
     char str[50] = {'\0'};
@@ -567,7 +567,7 @@ void ex24() {
 
 /* Exercicio 25
 *   Escreva um programa que leia duas palavras e diga qual deles vem primeiro na ordem
-*   alfab√©tica. Dica: ‚Äòa‚Äô √© menor do que ‚Äòb‚Äô.
+*   alfabÈtica. Dica: ëaí È menor do que ëbí.
 */
 void ex25() {
     char str1[50] = {'\0'};
@@ -581,8 +581,8 @@ void ex25() {
     printf("Inserir a segunda palavra: ");
     gets(str2);
 
-    // √â nescess√°rio converter os caracteres da string para min√∫scula pois a fun√ß√£o strcmp
-    // compara segundo a tabela de ASCII sem esta convers√£o, 'A' √© diferente de 'a', vem antes...
+    // … nescess·rio converter os caracteres da string para min˙scula pois a funÁ„o strcmp
+    // compara segundo a tabela de ASCII sem esta convers„o, 'A' È diferente de 'a', vem antes...
     for(i = 0 ; i < strlen(str1) ; i++) str1_aux[i] = tolower(str1[i]);
     for(i = 0 ; i < strlen(str2) ; i++) str2_aux[i] = tolower(str2[i]);
 
@@ -595,11 +595,11 @@ void ex25() {
 
 
 /* Exercicio 26
-*   O c√≥digo de C√©sar √© uma das mais simples e conhecidas t√©cnicas de criptografia. √â um
-*   tipo de substitui√ß√£o na qual cada letra do texto √© substitu√≠da por outra, que se apresenta
-*   no alfabeto abaixo dela um n√∫mero fixo de vezes. Por exemplo, com uma troca de tr√™s
-*   posi√ß√µes, ‚ÄòA‚Äô seria substitu√≠do por ‚ÄòD‚Äô, ‚ÄòB‚Äô se tornaria ‚ÄòE‚Äô, e assim por diante. Implemente
-*   um programa que fa√ßa uso desse C√≥digo de C√©sar (3 posi√ß√µes), entre com uma string e
+*   O cÛdigo de CÈsar È uma das mais simples e conhecidas tÈcnicas de criptografia. … um
+*   tipo de substituiÁ„o na qual cada letra do texto È substituÌda por outra, que se apresenta
+*   no alfabeto abaixo dela um n˙mero fixo de vezes. Por exemplo, com uma troca de trÍs
+*   posiÁıes, ëAí seria substituÌdo por ëDí, ëBí se tornaria ëEí, e assim por diante. Implemente
+*   um programa que faÁa uso desse CÛdigo de CÈsar (3 posiÁıes), entre com uma string e
 *   retorne a string codificada. Exemplo:
 *   String: a ligeira raposa marrom saltou sobre o cachorro cansado
 *   Nova string: D OLJHLUD UDSRVD PDUURP VDOWRX VREUH R FDFKRUUR FDQVDGR
@@ -621,13 +621,13 @@ void ex26() {
 }
 
 /* Exercicio 27
-*   Fa√ßa um programa que, dada uma string, diga se ela √© um pal√≠ndromo ou n√£o. Lembrando
-*   que um pal√≠ndromo √© uma palavra que tenha a propriedade de poder ser lida
+*   FaÁa um programa que, dada uma string, diga se ela È um palÌndromo ou n„o. Lembrando
+*   que um palÌndromo È uma palavra que tenha a propriedade de poder ser lida
 *   tanto da direita para a esquerda como da esquerda para a direita.
 *   Exemplo:
 *   ovo
 *   arara
-*   Socorram-me, subi no √¥nibus em Marrocos.
+*   Socorram-me, subi no Ùnibus em Marrocos.
 *   Anotaram a data da maratona
 */
 void ex27() {
@@ -647,7 +647,7 @@ void ex27() {
         }
     }
 
-    //validar se √© pal√≠ndromo
+    //validar se È palÌndromo
     tam = strlen(str_aux) - 1;
     for( i = 0 ; i <= tam / 2 ; i++) {
         printf("%c %c= %c\n",str_aux[i],(str_aux[i] == str_aux[tam - i])?'=':'!',str_aux[tam - i]);
@@ -661,8 +661,8 @@ void ex27() {
 }
 
 /* Exercicio 28
-*   Construa um programa que leia duas strings fornecidas pelo usu√°rio e verifique se a segunda
-*   string lida esta contida no final da primeira, retornando o resultado da verifica√ß√£o.
+*   Construa um programa que leia duas strings fornecidas pelo usu·rio e verifique se a segunda
+*   string lida esta contida no final da primeira, retornando o resultado da verificaÁ„o.
 */
 int exist_sub_str(char *str, char *sub_str) {
     int i = strlen(str) - strlen(sub_str), j = 0;
@@ -691,7 +691,7 @@ void ex28() {
 
 /* Exercicio 29
 *   Implemente um programa que leia duas strings, str1 e str2, e um valor inteiro positivo N.
-*   Concatene n√£o mais que N caracteres da string str2 √† string str1 e termine str1 com
+*   Concatene n„o mais que N caracteres da string str2 ‡ string str1 e termine str1 com
 *   NULL.
 */
 void ex29() {
@@ -702,7 +702,7 @@ void ex29() {
     //Numero de caracteres a concatenar
     n = 14;
 
-    //Concatena√ß√£o
+    //ConcatenaÁ„o
     n_elem_str1 = strlen(str1);
     for( i = 0 ; i < n ; i++)
         str1[n_elem_str1 + i] = str2[i];
@@ -740,23 +740,23 @@ void ex30() {
 }
 
 
-/* Exercicio 31 (utilizei este exercicio para "brincar" um pouco dai a m√° organiza√ß√£o)
-*   Fa√ßa um programa que contenha um menu com as seguintes op√ß√µes:
-*   (a) Ler uma string S1 (tamanho m√°ximo 20 caracteres);
+/* Exercicio 31 (utilizei este exercicio para "brincar" um pouco dai a m· organizaÁ„o)
+*   FaÁa um programa que contenha um menu com as seguintes opÁıes:
+*   (a) Ler uma string S1 (tamanho m·ximo 20 caracteres);
 *   (b) Imprimir o tamanho da string S1;
-*   (c) Comparar a string S1 com uma nova string S2 fornecida pelo usu√°rio e imprimir o
-*   resultado da compara√ß√£o;
+*   (c) Comparar a string S1 com uma nova string S2 fornecida pelo usu·rio e imprimir o
+*   resultado da comparaÁ„o;
 *   (d) Concatenar a string S1 com uma nova string S2 e imprimir na tela o resultado da
-*   concatena√ß√£o;
+*   concatenaÁ„o;
 *   (e) Imprimir a string S1 de forma reversa;
 *   (f) Contar quantas vezes um dado caractere aparece na string S1. Esse caractere
-*   desse ser informado pelo usu√°rio;
-*   (g) Substituir a primeira ocorrÀÜencia do caractere C1 da string S1 pelo caractere C2. Os
-*   caracteres C1 e C2 ser√£o lidos pelo usu√°rio;
-*   (h) Verificar se uma string S2 ¬¥e substring de S1. A string S2 deve ser informada pelo
-*   usu√°rio;
-*   (i) Retornar uma substring da string S1. Para isso o usu√°rio deve informar a partir de
-*   qual posi√ß√£o deve ser criada a substring e qual √© o tamanho da substring.
+*   desse ser informado pelo usu·rio;
+*   (g) Substituir a primeira ocorràencia do caractere C1 da string S1 pelo caractere C2. Os
+*   caracteres C1 e C2 ser„o lidos pelo usu·rio;
+*   (h) Verificar se uma string S2 ¥e substring de S1. A string S2 deve ser informada pelo
+*   usu·rio;
+*   (i) Retornar uma substring da string S1. Para isso o usu·rio deve informar a partir de
+*   qual posiÁ„o deve ser criada a substring e qual È o tamanho da substring.
 */
 void ex31() {
     char strA[255] = {'\0'};
@@ -861,9 +861,9 @@ void ex31() {
 }
 
 /* Exercicio 32
-*   Leia uma cadeia de caracteres no formato ‚ÄúDD/MM/AAAA‚Äù e copie o dia, m√™s e ano para
-*   3 vari√°veis inteiras. Antes disso, verifique se as barras est√£o no lugar certo, e se DD, MM
-*   e AAAA s√£o num√©ricos.
+*   Leia uma cadeia de caracteres no formato ìDD/MM/AAAAî e copie o dia, mÍs e ano para
+*   3 vari·veis inteiras. Antes disso, verifique se as barras est„o no lugar certo, e se DD, MM
+*   e AAAA s„o numÈricos.
 */
 void ex32() {
     char data[255] = {'\0'};
@@ -910,12 +910,12 @@ void ex32() {
 }
 
 /* Exercicio 33
-*   Fa√ßa um programa para ler uma tabela contendo os nomes dos alunos de uma turma de
-*   5 alunos. O programa deve solicitar ao usu√°rio os nomes do aluno, sempre perguntando
-*   se ele deseja inserir mais um nome na lista. Uma vez lidos todos os alunos, o usu√°rio
-*   ir√° indicar um nome que ele deseja verificar se est√° presente na lista, onde o programa
+*   FaÁa um programa para ler uma tabela contendo os nomes dos alunos de uma turma de
+*   5 alunos. O programa deve solicitar ao usu·rio os nomes do aluno, sempre perguntando
+*   se ele deseja inserir mais um nome na lista. Uma vez lidos todos os alunos, o usu·rio
+*   ir· indicar um nome que ele deseja verificar se est· presente na lista, onde o programa
 *   deve procurar pelo nome (ou parte deste nome) e se encontrar deve exibir na tela o nome
-*   completo e o √≠ndice do vetor onde est√° guardado este nome.
+*   completo e o Ìndice do vetor onde est· guardado este nome.
 */
 void ex33() {
     char str_matrix[255][255], str_cont[10] = {'\0'}, sub_str[255] = {'\0'};
@@ -970,7 +970,7 @@ void ex33() {
 }
 
 /* Exercicio 34
-*   Fa√ßa um programa que encontre o conjunto de 5 d√≠gitos consecutivos na sequ√™ncia
+*   FaÁa um programa que encontre o conjunto de 5 dÌgitos consecutivos na sequÍncia
 *   abaixo que gere o maior produto:
 *   73167176531330624919225119674426574742355349194934
 *   96983520312774506326239578318016984801869478851843
@@ -1046,8 +1046,10 @@ void ex34() {
 }
 
 
+
+
 int main() {
-    ex34();
+    //ex34();
     //ex33();
     //ex32();
     //ex31();
